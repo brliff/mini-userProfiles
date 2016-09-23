@@ -1,3 +1,51 @@
 .favorite {
     background-color: lightblue
 }
+
+.user-info {
+    padding: 15px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    max-width: 300px;
+    margin: 25px 0;
+    position: relative;
+}
+
+.user-info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.user-info img {
+    float: left;
+    margin-right: 10px;
+}
+
+.user-meta {
+    float: left;
+}
+
+.user-meta p{
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.user-meta p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user-meta span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 4px 8px 3px 8px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.user-meta span{
+    color: lightgray;
+}
